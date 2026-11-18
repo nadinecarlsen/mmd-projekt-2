@@ -1,0 +1,245 @@
+* {
+   box-sizing: border-box; 
+   margin: 0;
+   padding:0;
+}
+
+body {
+    background-color: #303132;
+    color: #FFF6E0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*header*/ 
+
+
+.header {
+    background: linear-gradient(90deg, #62465E 0%, #9E8C88 49.65%, #7A546D 100%);
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.nav a {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:#FFF6E0;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2.2rem;
+}
+
+
+/*hero*/
+
+
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2.5rem;
+    color:#FFF6E0
+}
+
+
+/*welcome*/
+
+
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 60px;
+}
+
+.welcome h2 {
+    flex: 1;
+    max-width: 590px;
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.welcome p {
+    flex: 1;
+    max-width: 577px;
+    max-width: 400px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+
+/*mental health*/
+
+
+.mentalhealth {
+    background: linear-gradient(180deg, #303132 0%, #1C1A1B 100%);
+    padding: 80px 60px;
+}
+
+.aboutmentalhealth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.aboutmentalhealth h2 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2.5rem; 
+    margin-bottom: 20px;
+}
+
+.aboutmentalhealth p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    max-width: 700px;
+}
+
+.aboutmentalhealth img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+
+/*categories*/
+
+
+.category {
+    background-color: #3C3237; 
+    border-radius: 10px; 
+    padding: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.categorytext {
+    max-width: 75%;
+}
+
+.category h3 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2rem; 
+    margin-bottom: 20px;
+}
+
+.category p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+
+/*READ MORE*/
+
+
+.button {
+    display: inline-block;
+    background-color: #654759; 
+    border-radius: 10px; 
+    color: #FFF6E0;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.25rem; 
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+/*letter*/
+
+
+.letter {
+    background: linear-gradient(180deg, #3C3C3C 0%, #493E43 50%, #72747E 100%); /* Figma line 286 */
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.letter h2 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 3.5rem; 
+    margin-bottom: 30px;
+}
+
+.letter p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+
+/*START WRITING*/
+
+
+.buttonbox {
+    display: inline-block;
+    border: 7px solid #FFF6E0; 
+    color: #FFF6E0;
+    padding: 20px 40px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2rem; 
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*footer*/
+
+
+.footer {
+    background-color: #303132;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
